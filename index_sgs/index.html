@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- 캐쉬 사용하지 않음 메타 -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+
+    <link rel="stylesheet" href="./index_header_footer.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index_header_footer.js"></script>
+    <script src="./index.js"></script>
+    
+</head>
+
+<body onload="imgslide();">
+    <header>
+        <div class="menu">
+            <a href="./index.html"><img id="logo" src="./index/logo.png" alt=""></a>
+            <ul class="one" onmouseover="mover()" onmouseout="mout()">
+                <li><a href="" class="menu1">빽다방</a>
+                    <ul>
+                        <li><a href="">CEO 인사말</a></li>
+                        <li><a href="">빽다방 소개</a></li>
+                        <li><a href="">커피 이야기</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="../menu_nsh/index1T.html" class="menu2">메뉴</a>
+                    <ul>
+                        <li><a href="../menu_nsh/index1T.html">신메뉴</a></li>
+                        <li><a href="../menu_nsh/index2T.html">커피</a></li>
+                        <li><a href="../menu_nsh/index3T.html">음료</a></li>
+                        <li><a href="../menu_nsh/index4T.html">아이스크림/디저트</a></li>
+                        <li><a href="../menu_nsh/index5T.html">빽스치노</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="../news_cys/news.html" class="menu3">소식</a>
+                    <ul>
+                        <li><a href="../news_cys/news.html">소식</a></li>
+                        <li><a href="">이벤트</a></li>
+                        <li><a href="">당첨자 발표</a></li>
+                        <li><a href="">친절 우수매장</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="" class="menu4">커뮤니티</a>
+                    <ul>
+                        <li><a href="">커피 클래스</a></li>
+                        <li><a href="">서포터즈</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="" class="menu5">매장안내</a>
+                    <ul>
+                        <li><a href="">매장찾기</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="../guide_lkk/guide.html" class="menu6">창업안내</a>
+                    <ul>
+                        <li><a href="../guide_lkk/guide.html">가맹정보 및 절차</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="">고객의 소리</a></li>
+            </ul>
+
+
+
+        </div>
+        <p id="back"></p>
+    </header>
+
+    <article id="#article">
+        <div style="width:100%; height:150px;"></div>
+
+        <div id="slide" val="1" mx="3" style="width:100%;">
+            <li id="img1"><a href="../menu_nsh/index1T.html"><img src="./index/main_딸기크림라떼_수정.jpg" alt="" /></a></li>
+            <li id="img2"><a href="../menu_nsh/index1T.html"><img src="./index/main_블랙펄.jpg" alt="" /></a></li>
+            <li id="img3"><a href="../menu_nsh/index3T.html"><img src="./index/main_완전주스.jpg" alt="" /></a></li>
+        </div>
+
+        <a href="../menu_nsh/index2T.html">
+            <section class="main_sec1">
+                <img class="pc_ver" src="./index/main_sec2.jpg" alt="">
+                <img class="m_ver" src="./index/mmain_sec2.jpg" alt="">
+                <div class="container">
+                    <h1 class="main_tit">fresh<br>coffee</h1>
+                    <h2 class="sub_tit">신선한 뉴크롭 원두를 사용하여<br>추출한 커피메뉴!</h2>
+                    <a class="btn st-1" href="/menu/menu_coffee"><span></span></a>
+                </div>
+            </section>
+        </a>
+
+        <a href="../menu_nsh/index3T.html">
+            <section class="main_sec2">
+                <img class="pc_ver" src="./index/main_sec3.jpg" alt="">
+                <img class="m_ver" src="./index/mmain_sec3.jpg" alt="">
+                <div class="container">
+                    <h1 class="main_tit">various<br>beverage</h1>
+                    <h2 class="sub_tit">에이드, 티, 주스 등 취향대로<br>골라 먹는 즐거움!</h2>
+                    <a class="btn st-1" href="/menu/menu_coffee"><span></span></a>
+                </div>
+            </section>
+        </a>
+
+        <a href="../menu_nsh/index5T.html">
+            <section class="main_sec3">
+                <img class="pc_ver" src="./index/main_sec4.jpg" alt="">
+                <img class="m_ver" src="./index/mmain_sec4.jpg" alt="">
+                <div class="container">
+                    <h1 class="main_tit">sweet<br>paik's ccino</h1>
+                    <h2 class="sub_tit">달콤 시원한 빽다방<br>시그니처 메뉴!</h2>
+                    <a class="btn st-1" href="/menu/menu_coffee"><span></span></a>
+                </div>
+            </section>
+        </a>
+
+
+        <a href="../menu_nsh/index4T.html">
+            <section class="main_sec4">
+                <img class="pc_ver" src="./index/main_sec5.jpg" alt="">
+                <img class="m_ver" src="./index/mmain_sec5.jpg" alt="">
+                <div class="container">
+                    <h1 class="main_tit">tasty<br>ice cream /<br>dessert</h1>
+                    <h2 class="sub_tit">달콤한 아이스크림부터<br>든든한 브레드 까지!</h2>
+                    <a class="btn st-1" href="/menu/menu_coffee"><span></span></a>
+                </div>
+            </section>
+        </a>
+
+
+        <section class="main_sec5">
+
+            <div class="box">
+                <h1 class="main_tit">store</h1>
+                <p>원하시는 지역의 매장을 검색해 보세요!</p>
+                <div class="store_search">
+                    <form action="" method="get">
+                        <input type="text" name="search_string" placeholder="Find a store in your area!">
+                        <input type="submit" value="검색">
+                    </form>
+                </div>
+            </div>
+
+            <a href="../guide_lkk/guide.html">
+                <div class="box">
+                    <h1 class="main_tit">franchise</h1>
+                    <p>빽다방 창업안내를 도와드리겠습니다.</p>
+                </div>
+            </a>
+
+
+        </section>
+
+
+        <hr color="gold" style="clear:both;">
+    </article>
+
+    <footer id="footer">
+        <div class="container">
+            <a href="./index.html"><img src="./index/flogo.png" alt="더본로고" id="logo2"></a>
+            <div class="company_info">
+                <ul>
+                    <li>(주)더본코리아</li>
+                    <li>사업자등록번호 211-86-00870</li>
+                    <li>대표이사 백종원</li>
+                </ul>
+                <ul>
+                    <li>주소: 서울시 강남구 봉은사로 1길 39 유성빌딩 4~6층</li>
+                    <li>팩스: 02-511-3864</li>
+                </ul>
+                <ul>
+                    <li>본사 대표전화: 02-549-3864</li>
+                    <li>가맹상담전화: 02-3447-0410</li>
+                    <li>고객센터: 1544-2360</li>
+                </ul>
+                <p class="copyright">COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+        <a href="" id="top" class="gotop">▲<br>TOP</a>
+
+
+    </footer> <!-- END footer -->
+
+</body>
+
+</html>

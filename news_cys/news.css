@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.txt{
+    padding-top: 150px;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:hover a { color: white; }
+
+tbody tr:hover{
+    background-color: #0e347e;
+    color: white;
+}
+
+th{
+    border-top: 2px solid #0e347e;
+    color: #0e347e;
+    height: 60px;
+}
+
+td{
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    height: 70px;
+}
+
+td a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    padding-top: 100px;
+}
+
+.sub_visual {
+    background: url('./news/bg-news.jpg');
+    min-height: 499px;
+    padding: 0 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+
+}
+
+.sub_visual .page_tab {
+    
+    display: inline;
+
+}
+
+
+.sub_visual .page_tab li{
+    display: inline-block;
+    width: 20%;
+    max-width: 170px;
+    padding: 5px 0;
+    border: 1px solid #bfbfbf;
+    color: #909090;
+    background: #fff;
+    margin: -5px; 
+}
+
+.sub_visual .page_tab li a{
+    display: block;
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+.sub_visual .page_tab li:hover{
+    background: yellow;
+    
+}
+
+.news_tab{
+    margin-top: 140px;
+}
+
+ul:hover a:hover { color: black; }
+
+.sub_visual .page_tab ul:hover{
+    color: black;
+    font-weight: bold;
+}
+
+li a:hover{
+    color: black;
+    font-weight: bold;
+    
+}
+
+.sub_visual .txt h1:after {
+    display: block;
+    width: 40px;
+    height: 2px;
+    margin: 32px auto;
+    background: #202020;
+    content: '';
+}
+
+.page_num{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.page_num a{
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+.page_num a:hover{
+    color: #0e347e;
+    font-weight: bold;
+}
+
+.current{
+    color: #0e347e;
+    font-weight: bold;
+}
+.current:hover {
+    color: #0e347e;
+    font-weight: 700;
+}
+
+.dots{
+    color: #bfbfbf;
+}
+
+.dots:hover{
+    color: #0e347e;
+}
+
+.page-numbers{
+    display: inline-block;
+    color: #c8c8c8;
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+.num{
+    width: 50px;
+    text-align: center;
+}
+
+.subject{
+    width: 50px;
+    text-align: center;
+}
+
+.title{
+    width: 500px;
+    text-align: center;
+}
+
+.date{
+    width: 100px;
+    text-align: center;
+}
+
+.view{
+    width: 100px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+

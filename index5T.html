@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
+        <!-- 캐쉬 사용하지 않음 메타 -->
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta http-equiv="Pragma" content="no-cache" />
+
+        <link rel="stylesheet" href="./index_header_footer.css">
+        
+        <!--그림사이즈부분  -->
+        <link rel='stylesheet' id='theme-css-style-css'  href='./style.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='theme-css-style-css'  href='./swiper.min.css' type='text/css' media='all' />
+        <script src="./index_header_footer.js"></script>
+        <!-- hover부분 -->
+        <script type='text/javascript' src='./jquery.js'></script>
+        
+            
+    </head>
+
+    <body>
+        <header>
+            <div class="menu">
+                <a href="./index.html"><img id="logo" src="./index/logo.png" alt=""></a>
+                <ul class="one" onmouseover="mover()" onmouseout="mout()">
+                    <li><a href="" class="menu1">빽다방</a>
+                    <ul>
+                        <li><a href="">CEO 인사말</a></li>
+                        <li><a href="">빽다방 소개</a></li>
+                        <li><a href="">커피 이야기</a></li>
+                </ul>
+                </li>
+        
+                    <li><a href="" class="menu2">메뉴</a>
+                        <ul>
+                        <li><a href="">신메뉴</a></li>
+                        <li><a href="">커피</a></li>
+                        <li><a href="">음료</a></li>
+                        <li><a href="">아이스크림/디저트</a></li>
+                        <li><a href="">빽스치노</a></li>
+                    </ul>
+                    </li>
+        
+                    <li><a href="" class="menu3">소식</a>
+                    <ul>
+                        <li><a href="">소식</a></li>
+                        <li><a href="">이벤트</a></li>
+                        <li><a href="">당첨자 발표</a></li>
+                        <li><a href="">친절 우수매장</a></li>
+                    </ul>
+                    </li>
+        
+                    <li><a href="" class="menu4">커뮤니티</a>
+                    <ul>
+                        <li><a href="">커피 클래스</a></li>
+                        <li><a href="">서포터즈</a></li>
+                    </ul>
+                    </li>
+        
+                    <li><a href="" class="menu5">매장안내</a>
+                    <ul>
+                        <li><a href="">매장찾기</a></li>
+                    </ul>
+                    </li>
+        
+                    <li><a href="" class="menu6" >창업안내</a> 
+                    <ul>
+                        <li><a href="">가맹정보 및 절차</a></li>
+                    </ul>
+                    </li>
+                            
+                    <li><a href="">고객의 소리</a></li>
+                    </ul>
+
+                    
+                    
+            </div>
+            <p id="back"></p>
+        </header>
+
+        <article id="#article">
+            <div style="width:100%; height:132px;"></div>
+    
+            <div class="sub_visual bg-news">
+                <img src="./page5/bg-menu5.jpg" alt="bg-menu5">
+                <div class="txt">
+                    <h1>빽스치노
+    
+                    </h1>
+                    <p>오직 빽다방에서만 만나보실 수있는 시그니처 메뉴입니다.</p>
+                </div>
+    
+                <div class="news_tab">
+                    <ul class="page_tab">
+                        <li id="all" class="on"><a href="/news/">신메뉴</a></li>
+                        <li><a href="/news/?cate=news">커피</a></li>
+                        <li><a href="/news/?cate=event">음료</a></li>
+                        <li><a href="/news/?cate=prize_winner">아이스크림/디저트</a></li>
+                        <li ><a href="http://paikdabang.com/menu/menu_ccino/">빽스치노</a></li>
+
+                    </ul>
+                </div>
+    
+            </div>
+
+            <div class="sub_section menu_wrap">
+	
+
+                <div class="container">
+                  <h2 class="main_tit3 color-1">추천메뉴</h2>
+                  
+                    <div class="menu_slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./page5/완전딸바.jpg" alt="">
+                                <p class="best_tit">완전딸기바나나</p>
+                                <span class="ico best">best</span>
+                                <div class="hover">
+                                    <button class="close" type="button"></button>
+                                    <h3 class="font-bl">완전딸기바나나</h3>
+                                    <p class="menu_tit2 color-1">strawberry & banana paik's ccino</p>
+                                    <p class="txt">상큼한 딸기와 달달한 바나나의 완전 시원한 만남!</p>
+                                    <ul class="price clear">
+                                                                    <li class="m10-col-5">
+                                            <p>basic</p>
+                                            <p>3,000</p>
+                                        </li>
+                                        <li class="m10-col-5">
+                                            <p>soft</p>
+                                            <p>3,500</p>
+                                        </li>
+                                                                </ul>
+                                    <p class="msg">(매장 상황에 따라 판매하지 않을 수 있습니다.)</p>
+                                </div>
+                            </div>
+                                        <div class="swiper-slide">
+                                <img src="./page5/완전초바.jpg" alt="">
+                                <p class="best_tit">완전초코바나나</p>
+                                <span class="ico best">best</span>
+                                <div class="hover">
+                                    <button class="close" type="button"></button>
+                                    <h3 class="font-bl">완전초코바나나</h3>
+                                    <p class="menu_tit2 color-1">choco & banana paik's ccino</p>
+                                    <p class="txt">달콤한 초코와 달달한 바나나의 완전 시원한 만남</p>
+                                    <ul class="price clear">
+                                                                    <li class="m10-col-5">
+                                            <p>basic</p>
+                                            <p>2,800</p>
+                                        </li>
+                                        <li class="m10-col-5">
+                                            <p>soft</p>
+                                            <p>3,300</p>
+                                        </li>
+                                                                </ul>
+                                    <p class="msg">(매장 상황에 따라 판매하지 않을 수 있습니다.)</p>
+                                </div>
+                            </div>
+                                        <div class="swiper-slide">
+                                <img src="./page5/원조빽스치노-1.jpg" alt="">
+                                <p class="best_tit">피스타치오빽스치노</p>
+                                <span class="ico best">best</span>
+                                <div class="hover">
+                                    <button class="close" type="button"></button>
+                                    <h3 class="font-bl">피스타치오빽스치노</h3>
+                                    <p class="menu_tit2 color-1">PISTACHIO PAIK’S CCINO</p>
+                                    <p class="txt">고소한 피스타치오와 진한 카카오닙스의 만남 ! 
+            </p>
+                                    <ul class="price clear">
+                                                                    <li class="m10-col-5">
+                                            <p>basic</p>
+                                            <p>4,500</p>
+                                        </li>
+                                        <li class="m10-col-5">
+                                            <p>soft</p>
+                                            <p>5,000</p>
+                                        </li>
+                                                                </ul>
+                                    <p class="msg">(매장 상황에 따라 판매하지 않을 수 있습니다.)</p>
+                                </div>
+                            </div>
+                                        <div class="swiper-slide">
+                                <img src="./page5/피스타치오빽스치노.jpg" alt="">
+                                <p class="best_tit">원조빽스치노</p>
+                                <span class="ico best">best</span>
+                                <div class="hover">
+                                    <button class="close" type="button"></button>
+                                    <h3 class="font-bl">원조빽스치노</h3>
+                                    <p class="menu_tit2 color-1">original mixed coffee Paik's Ccino</p>
+                                    <p class="txt">원조커피의 시원한 변신~! 매력만점 커피 빽스치노</p>
+                                    <ul class="price clear">
+                                                                    <li class="m10-col-5">
+                                            <p>basic</p>
+                                            <p>3,000</p>
+                                        </li>
+                                        <li class="m10-col-5">
+                                            <p>soft</p>
+                                            <p>3,500</p>
+                                        </li>
+                                                                </ul>
+                                    <p class="msg">(매장 상황에 따라 판매하지 않을 수 있습니다.)</p>
+                                </div>
+                            </div>
+                                    </div>
+            
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                        <div class="menu_list clear">
+                        <ul>
+                                                <li>
+                                <div class="thumb"><img src="./page5/완전딸바.jpg" alt=""></div>
+                                <p class="menu_tit">완전딸기바나나</p>
+                                <div class="hover">
+                                    <button class="close" type="button"></button>
+                                    <h3 class="font-bl">완전딸기바나나</h3>
+                                    <p class="menu_tit2 color-1">strawberry & banana paik's ccino</p>
+                                    <p class="txt">상큼한 딸기와 달달한 바나나의 완전 시원한 만남!</p>
+                                    <ul class="price clear">
+                                                                    <li class="m10-col-5">
+                                            <p>basic</p>
+                                            <p>3,000</p>
+                                        </li>
+                                        <li class="m10-col-5">
+                                            <p>soft</p>
+                                            <p>3,500</p>
+                                        </li>
+                                                                </ul>
+                                    <p class="msg">(매장 상황에 따라 판매하지 않을 수 있습니다.)</p>
+                                </div>
+                            </li>
+                                            <li>
+                                <div class="thumb"><img src="./page5/완전초바.jpg" alt=""></div>
+                                <p class="menu_tit">완전초코바나나</p>
+                                <div class="hover">
+                                    <button class="close" type="button"></button>
+                                    <h3 class="font-bl">완전초코바나나</h3>
+                                    <p class="menu_tit2 color-1">choco & banana paik's ccino</p>
+                                    <p class="txt">달콤한 초코와 달달한 바나나의 완전 시원한 만남</p>
+                                    <ul class="price clear">
+                                                                    <li class="m10-col-5">
+                                            <p>basic</p>
+                                            <p>2,800</p>
+                                        </li>
+                                        <li class="m10-col-5">
+                                            <p>soft</p>
+                                            <p>3,300</p>
+                                        </li>
+                                                                </ul>
+                                    <p class="msg">(매장 상황에 따라 판매하지 않을 수 있습니다.)</p>
+                                </div>
+                            </li>
+                                            <li>
+                                <div class="thumb"><img src="./page5/피스타치오빽스치노.jpg" alt=""></div>
+                                <p class="menu_tit">피스타치오빽스치노</p>
+                                <div class="hover">
+                                    <button class="close" type="button"></button>
+                                    <h3 class="font-bl">피스타치오빽스치노</h3>
+                                    <p class="menu_tit2 color-1">PISTACHIO PAIK’S CCINO</p>
+                                    <p class="txt">고소한 피스타치오와 진한 카카오닙스의 만남 ! </p>
+                                    <ul class="price clear">
+                                                                    <li class="m10-col-5">
+                                            <p>basic</p>
+                                            <p>4,500</p>
+                                        </li>
+                                        <li class="m10-col-5">
+                                            <p>soft</p>
+                                            <p>5,000</p>
+                                        </li>
+                                                                </ul>
+                                    <p class="msg">(매장 상황에 따라 판매하지 않을 수 있습니다.)</p>
+                                </div>
+                            </li>
+                                            <li>
+                                <div class="thumb"><img src="./page5/녹차빽스치노.jpg" alt=""></div>
+                                <p class="menu_tit">녹차빽스치노</p>
+                                <div class="hover">
+                                    <button class="close" type="button"></button>
+                                    <h3 class="font-bl">녹차빽스치노</h3>
+                                    <p class="menu_tit2 color-1">Green tea Paik's Ccino</p>
+                                    <p class="txt">100% 국내산 녹차를 사용하여 부드럽고 진한 맛의 빽스치노!</p>
+                                    <ul class="price clear">
+                                                                    <li class="m10-col-5">
+                                            <p>basic</p>
+                                            <p>3,000</p>
+                                        </li>
+                                        <li class="m10-col-5">
+                                            <p>soft</p>
+                                            <p>3,500</p>
+                                        </li>
+                                                                </ul>
+                                    <p class="msg">(매장 상황에 따라 판매하지 않을 수 있습니다.)</p>
+                                </div>
+                            </li>
+                                            <li>
+                                <div class="thumb"><img src="./page5/원조빽스치노-1.jpg" alt=""></div>
+                                <p class="menu_tit">원조빽스치노</p>
+                                <div class="hover">
+                                    <button class="close" type="button"></button>
+                                    <h3 class="font-bl">원조빽스치노</h3>
+                                    <p class="menu_tit2 color-1">original mixed coffee Paik's Ccino</p>
+                                    <p class="txt">원조커피의 시원한 변신~! 매력만점 커피 빽스치노</p>
+                                    <ul class="price clear">
+                                                                    <li class="m10-col-5">
+                                            <p>basic</p>
+                                            <p>3,000</p>
+                                        </li>
+                                        <li class="m10-col-5">
+                                            <p>soft</p>
+                                            <p>3,500</p>
+                                        </li>
+                                                                </ul>
+                                    <p class="msg">(매장 상황에 따라 판매하지 않을 수 있습니다.)</p>
+                                </div>
+                            </li>
+                                            <li>
+                                <div class="thumb"><img src="./page5/민트초코-빽스치노.png" alt=""></div>
+                                <p class="menu_tit">민트초코  빽스치노</p>
+                                <div class="hover">
+                                    <button class="close" type="button"></button>
+                                    <h3 class="font-bl">민트초코  빽스치노</h3>
+                                    <p class="menu_tit2 color-1">MINT CHOCO PAIK’S CCINO</p>
+                                    <p class="txt">초코칩으로 더한 깊은 초콜릿의 맛과 민트의 상쾌함이 어우러진 진한 민트초코 빽스치노
+            </p>
+                                    <ul class="price clear">
+                                        <li class="m10-col-5">
+                                            <p>basic</p>
+                                            <p>3,500</p>
+                                        </li>
+                                        <li class="m10-col-5">
+                                            <p>soft</p>
+                                            <p>4,000</p>
+                                        </li>
+                                                                </ul>
+                                    <p class="msg">(매장 상황에 따라 판매하지 않을 수 있습니다.)</p>
+                                </div>
+                            </li>
+                                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- //서브컨텐츠 -->
+            
+            <link rel="stylesheet" type="text/css" href="./swiper.min.js">
+            <script type="text/javascript" src="./swiper.min.js"></script>
+            <script>
+                var swiper = new Swiper('.menu_slider', {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                    freeMode: true,
+                    navigation: {
+                        nextEl: '.menu_slider .swiper-button-next',
+                        prevEl: '.menu_slider .swiper-button-prev',
+                    },
+                    breakpoints: {
+                        // when window width is <= 480px
+                        480: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                        },
+                        // when window width is <= 640px
+                        800: {
+                            slidesPerView: 2,
+                            spaceBetween: 10
+                        }
+                    }
+                });
+            
+            
+            
+            
+            /*jQuery(document).on("click", ".menu_list>ul>li", function() {
+                        jQuery(this).children(".hover").stop().fadeToggle();
+                });*/
+            
+                jQuery(document).on("click", ".menu_list>ul>li, .menu_slider .swiper-slide", function() {
+                    var is_display = jQuery(this).children(".hover").css("display");
+                    if (is_display == "block") {
+                        jQuery(this).children(".hover").stop().fadeOut();
+                        jQuery(this).parent().removeClass('on');
+                    } else {
+                        jQuery(".hover").stop().fadeOut();
+                        jQuery(this).children(".hover").stop().fadeToggle();
+                        jQuery(".menu_list>ul>li").removeClass('on');
+                        jQuery(this).parent().addClass('on');
+                    }
+                    return false;
+                });
+            </script>
+            
+            
+                    
+                    
+            
+            
+            
+            
+            
+            
+            
+            
+                
+            </script>
+            
+            
+
+            <hr color="gold">
+        </article>
+
+        <footer id="footer">
+                <div class="container">
+                    <div class="in_footer">
+                        <a href="http://paikdabang.com"><img src="./index/flogo.png" alt="더본로고" id="logo2"></a>
+                        <div class="company_info">
+                            <ul>
+                                <li>(주)더본코리아</li>
+                                <li>사업자등록번호 211-86-00870</li>
+                                <li>대표이사 백종원</li>
+                            </ul>
+                            <ul>
+                                <li>주소: 서울시 강남구 봉은사로 1길 39 유성빌딩 4~6층</li>
+                                <li>팩스: 02-511-3864</li>
+                            </ul>
+                            <ul>
+                                <li>본사 대표전화: 02-549-3864</li>
+                                <li>가맹상담전화: 02-3447-0410</li>
+                                <li>고객센터: 1544-2360</li>
+                            </ul>
+                            <p class="copyright">COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="" id="top" class="gotop">▲<br>TOP</a>
+                     
+                     
+            </footer> <!-- END footer -->
+    
+    </body>
+</html>
